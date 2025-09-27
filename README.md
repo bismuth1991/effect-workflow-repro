@@ -1,15 +1,23 @@
 # effect-workflow-repro
 
-To install dependencies:
-
+Install dependencies:
 ```bash
-bun install
+pnpm i
 ```
 
-To run:
+Run the following scripts sequentially in different terminal windows/tabs
 
+Shard manager
 ```bash
-bun run index.ts
+pnpm s
 ```
 
-This project was created using `bun init` in bun v1.2.22. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Runner
+```bash
+pnpm r
+```
+
+Client
+```bash
+pnpm c
+```
